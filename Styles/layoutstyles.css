@@ -1,0 +1,92 @@
+body {
+    background-color: darkslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+}
+
+.common {
+    /* background-color: #cccccc; */
+    /* border: 2px solid white; */
+    position: absolute;
+}
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 50px;
+    z-index: 2;
+    border-bottom: solid 1px white;
+}
+.leftmenu {
+    top: 70px;
+    left: 5px;
+    width: 100px;
+    bottom: 39px;
+    z-index: 1;
+    
+    border-right: solid 1px white;
+}
+.mainbody {
+    top: 60px;
+    left: 114px;
+    right: 130px;
+    bottom: 39px;
+    padding-right: 5px;
+}
+.rightmenu {
+    top: 70px;
+    right: 5px;
+    width: 100px;
+    bottom: 39px;
+    border-left: solid 1px white;
+    padding-left: 10px;
+}
+.footer {
+    bottom: 5px;
+    right: 5px;
+    left: 5px;
+    height: 25px;
+    font-size: 8px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+}
+
+.subheader {
+    float: right;
+}
+
+.leftmenu2 {
+    top: 170px;
+    left: 15px;
+    width: 100px;
+    bottom: 39px;
+    z-index: 1;
+}
+
+.leftmenu3 {
+    top: 290px;
+    left: 12px;
+    width: 100px;
+    bottom: 39px;
+    z-index: 1;
+}
+
+.leftmenu4 {
+    top: 435px;
+    left: 15px;
+    width: 100px;
+    bottom: 39px;
+    z-index: 1;
+}
+
+.mainbodyv {
+    text-align: center;
+    top: 440px;
+    left: 250px;
+    right: 114px;
+    bottom: 39px;
+    padding-right: 5px;
+}
